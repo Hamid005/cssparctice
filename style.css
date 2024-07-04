@@ -1,0 +1,35 @@
+p {
+color: brown;
+    }
+    p#abc{
+        color: blueviolet;
+    }
+    p.xyz{
+        color: black;
+    }
+    p.test{
+        color: aqua;
+    }
+    p#pseudo{ 
+        color: orangered;
+    }
+        p#pseudo:hover{
+            color: blueviolet;
+            text-decoration:underline ;
+            cursor: pointer;
+        }
+        button#btn{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button#btn:hover{
+            background-color: blueviolet;
+box-shadow: 2px 2px 2px 2px bisque;
+        }
+       * {
+            background-color: black;
+        }
